@@ -61,6 +61,7 @@ public class GameManager : MonoBehaviour
 
     public void Replay()
     {
+        Destroy(FindObjectOfType<Player>().gameObject);
         // 場景管理器.載入場景("場景名稱")
         SceneManager.LoadScene("投籃機");
     }
