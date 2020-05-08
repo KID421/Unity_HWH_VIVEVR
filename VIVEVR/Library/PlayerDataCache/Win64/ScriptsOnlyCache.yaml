@@ -29,6 +29,7 @@ ScriptsOnlyBuild:
     - Valve.VR.SteamVR_Behaviour_Skeleton
     - Valve.VR.SteamVR_ExternalCamera
     - Valve.VR.SteamVR_Fade
+    - Valve.VR.SteamVR_LoadLevel
     - Valve.VR.SteamVR_Overlay
     - Valve.VR.SteamVR_PlayArea
     - Valve.VR.SteamVR_Render
@@ -36,8 +37,6 @@ ScriptsOnlyBuild:
     - Valve.VR.SteamVR_Settings
     - Valve.VR.SteamVR_Skeleton_Pose
     - Valve.VR.SteamVR_Skeleton_Poser
-    SteamVR_Editor.dll:
-    - Valve.VR.SteamVR_UnitySettingsWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -121,6 +120,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11404}
     - Class: 114
       Script: {instanceID: 11454}
+    - Class: 114
+      Script: {instanceID: 11472}
     - Class: 114
       Script: {instanceID: 11512}
     - Class: 114
